@@ -1,0 +1,139 @@
+/* header */
+.section-header .inner-wrap
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color:var(--color-word);
+    font-weight: 600;
+    font-size:18px;
+    background-color: #fff;
+    position: sticky;
+    left:0px;
+    align-items: center;
+    top:0px;
+    z-index: 10;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+.section-header .inner-wrap .inner-logo
+{
+    width: 30%;
+    height: 120px;
+    text-align: center;
+    /* aspect-ratio: 2/1 */
+}
+/* .section-header .inner-wrap .inner-logo a
+{
+    display: inline-block;
+} */
+.section-header .inner-wrap .inner-logo img
+{
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-header .inner-wrap .inner-menu
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+}
+.section-header .inner-wrap .inner-menu a
+{
+    color:var(--color-word);
+    text-decoration: none;
+    display:inline-block;
+    padding:47px 20px;   
+}
+.section-header .inner-wrap .inner-menu a:hover
+{
+    color:var(--color-red);
+    background-color: var(--color-gray);
+}
+.section-header .inner-wrap .inner-login
+{
+    width: 20%;
+    padding:20px 0px;
+    /* display: flex; */
+    /* align-items: center; */
+}
+.section-header .inner-wrap .inner-login a
+{
+    color:#fff;
+    text-decoration: none;
+    display: inline-block;
+    padding:10px 40px;
+    background-color: var(--color-word);
+    /* border: 2px solid var(--color-word); */
+    border-radius: 15px;
+
+}
+.section-header .inner-wrap .inner-login a:hover 
+{
+    color:#fff;
+    background-color: var(--color-red);
+
+}
+.header-lg
+{
+    text-align: center;
+    color: var(--color-red);
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+form
+{
+    text-align: center;
+    /* border-radius: 2px solid var(--color-gray); */
+}
+.username,.password
+{
+    border: 2px solid var(--color-gray);
+    margin-bottom: 10px;
+    width: 300px;
+    border-radius:10px ;
+    padding: 10px 0px;
+    padding-left:10px;
+}
+.btn-primary
+{
+    width: 300px;
+    margin-bottom: 10px;
+}
+.btn-success
+{
+    width: 200px;
+    margin-bottom: 10px;
+}
+.login ,.sign-up
+{
+    /* color:#fff; */
+    font-size:40px;
+    font-weight:500;
+    margin-bottom: 10px;
+}
+
+.wapper
+{
+    max-width: 30%;
+    /* background-color: var(--color-word); */
+    margin: auto;
+    padding: 20px;
+    border: 2px solid var(--color-gray);
+    border-radius: 10px;
+}
+.btn.sign-up
+{
+    width: 300px;
+    margin-bottom: 10px;
+}
+.btn.login
+{
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+
+/* end header: */
