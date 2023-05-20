@@ -2,9 +2,10 @@
 :root
 {
     --color-bg:#ffffff;
-    --color-gray:#EBEBEB;
+    --color-gray: #EBEBEB;
     --color-word:#252525;
     --color-header:#103178;
+    --color-red:#a5190e;
     font-family: 'Roboto', sans-serif;
 }
 .container
